@@ -1,0 +1,142 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(73, 98, 121);
+}
+
+@font-face{
+    src:url(/font/brassy-personal-use.regular.ttf);
+    font-family:brassy;
+}
+
+.unique{
+    font-family:brassy;
+    color:white;
+     text-shadow:0 0 5px black;
+}
+
+header{
+    border:2px black solid;
+    background-image:url(/images/back.jpeg);
+    background-size:cover;
+    padding-bottom: 200px;
+    background-position:center;
+    color:white;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+ 
+}
+
+#head-2{
+    background-colo: rgb(53, 53, 116);
+    font-size:100px;
+    margin-top:200px;
+    margin-bottom:10px;
+    text-shadow:0 0 10px black
+}
+
+#head-3{
+    text-shadow:0 0 10px black;
+    font-size:40px;
+    width:70%;
+     margin-top:0px;
+    
+}
+
+#top-nav{
+    text-align:center;
+    font-size:25px;
+    letter-spacing:2px;
+    color: white;
+}
+
+section{
+    display:flex;
+    justify-content:space-between;
+    padding:0 50px;
+}
+
+
+.section-h2{
+    font-family:brassy;
+    color:white;
+    font-size:40px;
+    letter-spacing: 5px;
+    text-shadow:0 0 10px black
+}
+
+
+.snd-section{
+    margin-right: 30px;
+
+}
+
+.frst-section p{
+   width:85%;
+   font-size:30px;
+    margin-right: 100px;
+   
+}
+
+.snd-section p{ 
+   font-size: 30px;
+   
+ 
+}
+
+.trd-section p{
+    font-size:30px;
+} 
+
+#frst-sectionimg{
+    width:600px;
+    border-radius:20%;
+    height:350px;
+}
+
+#sec-sectionimg{
+    width:600px;
+    border-radius:20%;
+}
+
+#trd-sectionimg{
+    width:600px;
+    height:350px;
+    border-radius:20%;
+}
+
+#footer-end{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+}
+
+.guide{
+    font-family:brassy;
+    color:white;
+    font-size:30px;
+    letter-spacing: 5px;
+    text-shadow:0 0 10px black;
+    margin-bottom:10px;
+}
+
+footer h1{
+    margin-top:0px;
+    font-size:35px;
+    margin-bottom:0px;
+}
+
+footer p{
+     margin-top:0px;
+    font-size:25px;
+    width:500px;
+}
+
